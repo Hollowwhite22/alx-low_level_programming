@@ -1,2 +1,2 @@
-#!/usr/bin/env perl
+#!/bin/bash
 gcc -o $CFILE c.c
