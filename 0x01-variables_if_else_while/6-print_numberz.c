@@ -1,3 +1,4 @@
+#include <unistd.h>
 #include <stdio.h>
 /**
  * main - Entry point
@@ -11,7 +12,7 @@ int main(void)
 
 	while (num <= 9)
 	{
-		printf("%d", num);
+		putchar("%d", num);
 		num++;
 	}
 	putchar('\n');
