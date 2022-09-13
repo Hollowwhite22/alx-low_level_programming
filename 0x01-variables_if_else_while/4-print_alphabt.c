@@ -12,6 +12,10 @@ int main(void)
 
 	for (char1 = 'a'; char1 <= 'z'; char1++)
 	{
+		if (char1 == e || char1 == q)
+		{
+			break();
+		}
 		putchar(char1);
 	}
 	putchar('\n');
