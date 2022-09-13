@@ -1,4 +1,3 @@
-#include <unistd.h>
 #include <stdio.h>
 /**
  * main - Entry point
@@ -8,12 +7,11 @@
  */
 int main(void)
 {
-	char num = 0;
+	char num = '0';
 
-	while (num <= 9)
+	while (num = '0'; num <= '9'; num++)
 	{
-		putchar("%d", num);
-		num++;
+		putchar(num);
 	}
 	putchar('\n');
 	return (0);
