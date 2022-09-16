@@ -21,23 +21,23 @@ void jack_bauer(void)
 		_putchar(d + '0');
 		_putchar('\n');
 
-		d++
+		d++;
 
 		if (d > 9)
 		{
 			d = 0;
-			c++
+			c++;
 		}
 		if (c > 5)
 		{
 			c = 0;
-			b++
+			b++;
 		}
 		if (b > 9)
 		{
 			b = 0;
-			a++
+			a++;
 		}
-		x++
+		x++;
 	}
 }
