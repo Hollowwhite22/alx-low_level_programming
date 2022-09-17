@@ -1,8 +1,7 @@
 #include "main.h"
 
 /**
- * print_numbers - A function that print numbers from 0 to 9
- *
+ * print_numbers - prints numbers from 0 to 9 without using standard functions
  *
  * Return: void
  */
@@ -13,8 +12,12 @@ void print_numbers(void)
 
 	while (c < 58)
 	{
+
 		_putchar(c);
+	
 		c++;
+
 	}
+
 	_putchar('\n');
 }
