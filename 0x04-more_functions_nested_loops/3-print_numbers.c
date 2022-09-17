@@ -1,9 +1,10 @@
+#include <stdio.h>
 #include "main.h"
 
 /**
  * print_numbers - A function that print numbers from 0 to 9
  *
- *
+ * @i: integer representing ascii value
  * Return: void
  */
 
