@@ -14,11 +14,11 @@ int main(void)
 	for (n = 1; n <= 100; n++)
 	{
 		if (n % 3 == 0)
-			putchar("Fizz ");
+			printf("Fizz ");
 		else if (n % 5 == 0)
-			putchar("Buzz ");
+			printf("Buzz ");
 		else if ((n % 3 == 0) && (n % 5 == 0))
-			putchar("FizzBuzz ");
+			printf("FizzBuzz ");
 		else
 			printf("%d ", n);
 	}
