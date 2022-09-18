@@ -7,7 +7,7 @@
  * Return: Always 0.
  */
 
-int main()
+int main(void)
 {
 	int n;
 
@@ -22,4 +22,5 @@ int main()
 		else
 			printf("%d ", n);
 	}
+	return (0);
 }
