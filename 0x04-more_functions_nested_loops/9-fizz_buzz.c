@@ -1,8 +1,9 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
- * @n: integer
+ * main - A function to print numbers from 1 to 100 and replace
+ * Fizz, Buzz and FizzBuzz if the number is a multiple of 3 or 5 or both
+ *
  * Return: Always 0.
  */
 
