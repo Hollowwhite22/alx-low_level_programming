@@ -2,7 +2,7 @@
 
 /**
  * main - Entry point
- *
+ * @n: integer
  * Return: Always 0.
  */
 
