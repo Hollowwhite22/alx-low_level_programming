@@ -1,13 +1,13 @@
 #include "main.h"
 
 /**
- * print_rev - A function that prints a string in reverse
+ * rev_string - A function that prints a string in reverse
  *
  * @s: pointer variable
  * Return: void
  */
 
-void print_rev(char *s)
+void rev_string(char *s)
 {
 	int len = 0, i, length;
 
@@ -17,8 +17,11 @@ void print_rev(char *s)
 	{
 		len++;
 	}
+
 	length = len;
+
 	len--;
+
 	for (i = 0; i < length / 2; i++)
 	{
 		c = *(s + i);
