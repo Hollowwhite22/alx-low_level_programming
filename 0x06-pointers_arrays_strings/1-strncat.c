@@ -2,7 +2,7 @@
 
 /**
  * _strncat - A function that concatenates two strings
- * 
+ *
  * @dest: A pointer to a character array
  * @src: A pointer to a character array
  * @n: number of characters to be added
@@ -16,7 +16,6 @@ char *_strncat(char *dest, char *src, int n)
 
 	while (*(dest + i) != '\0')
 		i++;
-
 	while (!(*(src + j) = '\0' || j == n))
 	{
 		*(dest + i) = *(src + j);
@@ -24,8 +23,6 @@ char *_strncat(char *dest, char *src, int n)
 		j++;
 	}
 	*(dest + i) = '\0';
-
 	p = dest;
-
 	return (p);
 }
