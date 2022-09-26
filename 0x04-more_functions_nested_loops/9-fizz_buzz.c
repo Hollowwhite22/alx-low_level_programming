@@ -32,7 +32,6 @@ int main(void)
 		{
 			printf("%d", n);
 			printf(" ");
-	
 		}
 	}
 
