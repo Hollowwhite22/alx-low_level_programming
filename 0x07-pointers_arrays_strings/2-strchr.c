@@ -5,14 +5,13 @@
  *
  * @s: pointer variable to search in
  * @c: constant to be checked
- * Return: a pointer to the first occurrence of the character c 
+ * Return: a pointer to the first occurrence of the character c
  * in the string s, or NULL if the character is not found
  */
 
 char *_strchr(char *s, char c)
 {
-	do
-	{
+	do {
 		if (*s == c)
 			return (s);
 	} while (*s++)
