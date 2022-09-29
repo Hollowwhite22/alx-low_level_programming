@@ -3,8 +3,8 @@
 /**
  * _strchr - A function that locates a character in a string
  *
- * @s: pointer variable to search in
- * @c: constant to search for
+ * @s: string to search
+ * @c: character to search for
  * Return: pointer to first occurence of c if it's there or NULL otherwise
  */
 
